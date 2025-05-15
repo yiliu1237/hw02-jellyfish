@@ -5,7 +5,7 @@ This project explores **procedural modeling** and **simulation** techniques in H
 
 The final scene includes multiple procedural jellyfish instances placed across a simulated ocean floor. One central jellyfish is encased inside a transparent, faceted geometry resembling a crystal. The surrounding environment includes imported coral meshes, a sand-like ground plane, and a volumetric lighting setup to simulate underwater depth and scattering. Light caustics and reflections are used to enhance surface detail, and the water surface is represented using a displaced plane with animated normals. Each jellyfish includes key anatomical features such as the **bell**, **arms**, **veins**, **organs**, and **tentacles**—all crafted procedurally and animated to simulate natural underwater movement.
 
-<img height="700" alt="Jellyfish Render" src="demo/demo.gif">
+<img height="800" alt="Jellyfish Render" src="demo/demo.gif">
 
 <div align="center">
   <img src="demo/detail1.png" height="250"/>
