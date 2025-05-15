@@ -5,12 +5,12 @@ This project explores **procedural modeling** and **simulation** techniques in H
 
 The final scene includes multiple procedural jellyfish instances placed across a simulated ocean floor. One central jellyfish is encased inside a transparent, faceted geometry resembling a crystal. The surrounding environment includes imported coral meshes, a sand-like ground plane, and a volumetric lighting setup to simulate underwater depth and scattering. Light caustics and reflections are used to enhance surface detail, and the water surface is represented using a displaced plane with animated normals. Each jellyfish includes key anatomical features such as the **bell**, **arms**, **veins**, **organs**, and **tentacles**—all crafted procedurally and animated to simulate natural underwater movement.
 
-<img height="400" alt="Jellyfish Render" src="demo/demo.gif">
+<img height="700" alt="Jellyfish Render" src="demo/demo.gif">
 
 <div align="center">
-  <img src="demo/detail1.png" width="250"/>
-  <img src="demo/detail2.png" width="250"/>
-  <img src="demo/detail3.png" width="250"/>
+  <img src="demo/detail1.png" height="250"/>
+  <img src="demo/detail2.png" height="250"/>
+  <img src="demo/detail3.png" height="250"/>
 </div>
 
 ---
@@ -33,7 +33,7 @@ Veins were generated using the **Find Shortest Path** node to create organic, br
 The organs were created using basic geometry primitives combined with noise-based deformations and copy-to-points workflows. They were placed inside the bell using a scatter-and-align setup, and animated with slight noise offsets to simulate motion.
 
 ### Tentacles
-Tentacles were generated using curves and simulated with Houdini’s wire dynamics system. The setup includes a hair generation network with constraints at the root and motion driven by turbulence forces. The simulation was cached using a **File Cache** node for playback and rendering.
+Tentacles were generated using curves and simulated with Houdini's wire dynamics system. The setup includes a hair generation network with constraints at the root and motion driven by turbulence forces. The simulation was cached using a File Cache node for playback and rendering.
 
 ### Stones, Corals, and Environment Elements
 Stone meshes and background elements were imported from external sources to enrich the final scene and give context to the jellyfish’s movement.
